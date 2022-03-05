@@ -2,15 +2,15 @@
 
 
 
-WG Working Group                                           J. Chroboczek
+Internet Area                                              J. Chroboczek
 Internet-Draft                                 IRIF, University of Paris
 Intended status: Standards Track                               W. Kumari
-Expires: 2 September 2022                                    Google, LLC
-                                                            1 March 2022
+Expires: 6 September 2022                                    Google, LLC
+                                                            5 March 2022
 
 
                    IPv4 routes with an IPv6 next hop
-                     draft-chroboczek-int-v4-via-v6
+                 draft-chroboczek-int-v4-via-v6-latest
 
 Abstract
 
@@ -24,16 +24,14 @@ About This Document
    This note is to be removed before publishing as an RFC.
 
    The latest revision of this draft can be found at
-   https://example.com/LATEST.  Status information for this document may
-   be found at https://datatracker.ietf.org/doc/draft-chroboczek-int-
-   v4-via/.
+   https://wkumari.github.io/draft-chroboczek-int-v4-via-v6/draft-
+   chroboczek-int-v4-via-v6.html.  Status information for this document
+   may be found at https://datatracker.ietf.org/doc/draft-chroboczek-
+   int-v4-via-v6/.
 
-   Discussion of this document takes place on the WG Working Group
-   mailing list (mailto:WG@example.com), which is archived at
-   https://example.com/WG.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/USER/REPO.
+   https://github.com/wkumari/draft-chroboczek-int-v4-via-v6.
 
 Status of This Memo
 
@@ -50,7 +48,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 2 September 2022.
+   This Internet-Draft will expire on 6 September 2022.
 
 Copyright Notice
 
@@ -124,8 +122,8 @@ Table of Contents
    "v4-via-v6" route.
 
    This document discusses the protocol design and operations
-   implications of such routes, and is designed to be used as a
-   reference for future documents.
+   implications of such routes and is designed to be used as a reference
+   for future documents.
 
    { Editor note, to be removed before publication.  This document is
    heavily based on draft-ietf-babel-v4viav6.  When draft-ietf-babel-
@@ -257,7 +255,7 @@ Table of Contents
 6.2.  Informative References
 
    [IANA-IPV4-REGISTRY]
-              "IP for Smart Objects (IPSO)", Web 
+              "IANA IPv4 Address Registry", Web 
               https://www.iana.org/assignments/iana-ipv4-special-
               registry/.
 
